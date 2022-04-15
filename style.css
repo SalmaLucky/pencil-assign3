@@ -1,0 +1,74 @@
+body{
+    scroll-behavior: smooth;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1400px;
+}
+
+/*header*/
+
+
+/*navbar*/
+.main-nav img{
+padding-left: 25px;
+}
+.head-nav{
+    background-color: rgba(0, 0, 0, 0.591);
+   height: 70px;
+}
+.nav-link{
+    color: #fff !important;
+}
+.email-box{
+    justify-content: center;
+    height: 40px;
+    display: flex;
+    
+}
+.email-box:hover > .tbox,.tbox:focus{
+ width: 260px;
+ padding: 0 10px;
+}
+.email-box i{
+    background: rgb(5, 2, 2);
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+
+}
+.tbox, .baku{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+    
+}
+.baku{
+    background-color: none;
+    columns: rgb(82, 82, 187);
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10% ;
+}
+.baku i{
+    border-radius: 50%;
+}
+/*carosel*/
+.carousel-caption{
+    position: relative;
+
+}
+.h-tag{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
