@@ -63,12 +63,31 @@ padding-left: 25px;
     border-radius: 50%;
 }
 /*carosel*/
-.carousel-caption{
+.carousel-item{
     position: relative;
+    background: black;
 
+}
+
+.carousel-item img{
+    opacity: 0.4;
 }
 .h-tag{
     position: absolute;
-    top: 5%;
-    left: 50%;
+    top: 40%;
+    left: 37%;
+    text-transform: uppercase;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    
+}
+
+.button button{
+    padding: 10px 40px 10px 40px;
 }
