@@ -1,6 +1,6 @@
 jQuery('.skill-per').each(function(){
     var $this = $(this);
-    var per = $this.after('per');
+    var per = $this.data('per');
     $this.css("width",per+'%');
     jQuery({animatedValue: 0}).animate({animatedValue: per},{
         duration: 1000,
