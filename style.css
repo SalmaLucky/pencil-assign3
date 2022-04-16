@@ -91,3 +91,60 @@ padding-left: 25px;
 .button button{
     padding: 10px 40px 10px 40px;
 }
+/*about*/
+.about{
+    padding-top: 10%;
+}
+.about-img img{
+    vertical-align: middle;
+    border-style: none;
+   
+    width: 90%;
+
+}
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 20px;
+    background: #cacaca;
+    
+}
+.skill-per{
+    height: 20px;
+    background-color: #f39c12;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f39c12;
+    top: -16px;
+    right: 0;
+    transform: translate(50%) rotate(45deg);
+    border-radius: 2px;
+}
