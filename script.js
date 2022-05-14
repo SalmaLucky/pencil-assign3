@@ -17,22 +17,31 @@ jQuery('.skill-per').each(function(){
     })
   
   });
-  /*counter*/
-  jQuery('.count-item').counterUp({
-    delay:10,
-    time:1000
-  });
+  
   /*gallery*/
   
     
     jQuery('.category').click(function(){
-      alert('hello');
+     
 
       //jQuery(this).addClass('active').siblings().removeClass('active');
       //jQuery(this).addClass("active");
+      const value = jQuery(this).attr('data-filter'); 
+      if (value == 'full-gallery'){
+        jQuery('.image').show('1000');
+      }
+      else{
+        jQuery('.image').not('.'+value).hide('1000');
+        jQuery('.image').filter('.'+value).show('1000');
+      }
+      jQuery('.category').click(function(){
+        jQuery(this).addClass('active').siblings().removeClass('active');
+      });
     });
 
 
  // jQuery methods go here...
+ //counter
+ 
 
 });

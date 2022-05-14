@@ -256,7 +256,7 @@ background-position: center;
     margin: 15px 0;
 }
 .work ul .category{
-    list-style: none;
+    list-style: none;ve
     padding: 8px 15px;
     margin-right: 15px;
     background: #333;
@@ -264,9 +264,9 @@ background-position: center;
     border-radius: 5px;
     cursor: pointer;
 }
-.active{
-    background: #f39c12 !important;
-    color: #fff !important;
+.work ul .category.active{
+    background: #f39c12;
+    color: #fff;
 }
 .work .img-gallery{
   display: flex;
