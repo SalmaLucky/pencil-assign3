@@ -1,3 +1,7 @@
+/*progressbar*/
+$(document).ready(function(){
+
+  
 jQuery('.skill-per').each(function(){
     var $this = $(this);
     var per = $this.data('per');
@@ -13,3 +17,22 @@ jQuery('.skill-per').each(function(){
     })
   
   });
+  /*counter*/
+  jQuery('.count-item').counterUp({
+    delay:10,
+    time:1000
+  });
+  /*gallery*/
+  
+    
+    jQuery('.category').click(function(){
+      alert('hello');
+
+      //jQuery(this).addClass('active').siblings().removeClass('active');
+      //jQuery(this).addClass("active");
+    });
+
+
+ // jQuery methods go here...
+
+});
