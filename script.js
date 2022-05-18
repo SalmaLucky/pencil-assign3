@@ -42,11 +42,20 @@ $(document).ready(function () {
 
   // jQuery methods go here...
   //counter
-
   $('.counter').counterUp({
     delay: 10,
     time: 1000
-  });
+});
 
+  
+  //story
+  $('.owl-carousel').owlCarousel({
+   items: 2,
+   loop:true,
+   autoplay:true,
+    margin:30,
+    
+    
+});
 
 });

@@ -193,14 +193,14 @@ padding-left: 25px;
     padding-top: 15px;
 }
 
-.card:hover{
+.new-card:hover{
      background-color: #f39c12 ;
    
 }
-.card{
+.new-card{
     text-align: center;
 }
-.card p{
+.new-card p{
     font-size: 10px;
 }
 .card-icon{
@@ -241,7 +241,7 @@ padding-left: 25px;
     
     padding: 20px;
 }
-.col-md-4{
+.sat-col{
 background-position: center;
     
     color: #fff;
@@ -256,7 +256,7 @@ background-position: center;
     margin: 15px 0;
 }
 .work ul .category{
-    list-style: none;ve
+    list-style: none;
     padding: 8px 15px;
     margin-right: 15px;
     background: #333;
@@ -293,5 +293,136 @@ background-position: center;
     object-fit: cover;
     transition: 0.4sF;
 }
+/*recent-story*/
+.story-row{
+    padding-top: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+.story-img img{
+    background: cover;
+}
+.story-card{
+    width: 450px;
+   height: 350;
+   margin: 50px;
+  
+}
+.item{
+    width: 100%;
+    gap: 20px;
+}
+.btn-card{
+    background-color: #282828;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    margin-left: 5px;
+   
+}
+/*life changing story*/
+.life-changing{
+    background-color: #000;
+}
+.life-img img{
+    height: 500px;
+    width: 100%;
+    padding:40px;
 
+}
+.life-store{
+    padding-top: 80px;
+}
+/*latest twitt*/
+.twitt-cont{
+    background:linear-gradient(rgba(0, 0, 0, 0.517),rgba(0, 0, 0, 0.61)), url(./img/twitter.jpg);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-right: 117px;
+    background-size: cover;
+}
+/*Get in Touch*/
+.touch{
+    padding-bottom: 60px;
+}
+/*form*/
+.touch-from{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+   
+}
+.form-group{
+  display: flex; 
+  
+}
+.form-group input{
+    width: 50%;
+}
+.form-group input:first-child{
+    margin-right: 25px;
+}
+.from-wrapper{
+    position: relative;
+   
+}
+.form-control{
+    
+    border: none;
+    border-bottom: 1px solid #333;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+    margin-bottom: 25px;
+    margin: 40px;
+}
+.form-control:hover{
+    border-bottom: 1px solid #f39c12;
+}
+.touch-btn{
+    border: none;
+    width: 180px;
+    height: 51px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   padding-left: 0;
+   background: #f39c12;
+   font-size: 20px #fff;
+   color: #fff;
 
+}
+/*follow*/
+.icon-follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+   
+}
+.icon-follow a {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    color: #f39c12;
+    text-align: center;
+    box-sizing: border-box;
+  
+}
+.icon-follow a i{
+    box-sizing: border-box;
+}
+.icon-follow a:hover{
+    background-color: #f39c12;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+   
+}
